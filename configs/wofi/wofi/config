@@ -1,0 +1,15 @@
+show=drun
+prompt=Apps
+width=700
+height=420
+location=center
+xoffset=0
+yoffset=0
+normal_window=true
+allow_images=true
+image_size=20
+term=kitty
+insensitive=true
+gtk_dark=true
+hide_scroll=true
+no_actions=true
