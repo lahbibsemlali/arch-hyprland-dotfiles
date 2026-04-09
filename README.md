@@ -4,7 +4,7 @@ Minimal, reproducible Arch Linux + Hyprland setup with modular configs and helpe
 
 ## Preview
 
-![Desktop Preview](assets/desktop-preview.png)
+![Desktop Preview](assets/desktop-preview.jpg)
 
 ## What This Repo Manages
 
