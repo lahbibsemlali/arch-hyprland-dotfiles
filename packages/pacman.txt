@@ -27,3 +27,4 @@ zoxide
 bat
 libnotify
 fastfetch
+btop

@@ -2,6 +2,10 @@
 
 Minimal, reproducible Arch Linux + Hyprland setup with modular configs and helper scripts.
 
+## Preview
+
+![Desktop Preview](assets/desktop-preview.png)
+
 ## What This Repo Manages
 
 - package manifests (`pacman` + AUR)
