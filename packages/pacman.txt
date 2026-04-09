@@ -14,6 +14,10 @@ network-manager-applet
 polkit-kde-agent
 xdg-desktop-portal-hyprland
 ttf-jetbrains-mono-nerd
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+otf-font-awesome
 git
 stow
 zsh

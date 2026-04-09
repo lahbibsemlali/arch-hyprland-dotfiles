@@ -3,83 +3,82 @@
   "logo": {
     "type": "file",
     "source": "~/.config/fastfetch/logo.txt",
-    "width": 11,
-    "height": 6,
+    "width": 12,
+    "height": 10,
     "padding": {
       "top": 1,
-      "right": 3
+      "right": 2
     }
   },
   "display": {
     "separator": "  ",
+    "brightColor": false,
+    "color": {
+      "keys": "#8bd5ff",
+      "title": "#b7c0de",
+      "output": "#aeb7d6",
+      "separator": "#6f7aa3"
+    },
     "key": {
-      "width": 9
+      "width": 4
     }
   },
   "modules": [
     {
       "type": "custom",
-      "format": "minimal system snapshot"
+      "format": "┌────────────────── Software Information ──────────────────┐"
     },
-    "title",
-    "break",
     {
       "type": "os",
-      "key": "os"
-    },
-    {
-      "type": "host",
-      "key": "host"
-    },
-    {
-      "type": "kernel",
-      "key": "kernel"
-    },
-    {
-      "type": "display",
-      "key": "display"
-    },
-    {
-      "type": "uptime",
-      "key": "uptime"
+      "key": "⌂ "
     },
     {
       "type": "packages",
-      "key": "pkgs"
-    },
-    {
-      "type": "shell",
-      "key": "shell"
-    },
-    {
-      "type": "terminal",
-      "key": "term"
+      "key": "◎ "
     },
     {
       "type": "wm",
-      "key": "wm"
+      "key": "❯ "
     },
     {
-      "type": "terminalfont",
-      "key": "font"
+      "type": "terminal",
+      "key": "⌨ "
+    },
+    {
+      "type": "shell",
+      "key": "› "
+    },
+    {
+      "type": "custom",
+      "format": "├────────────────── Hardware Information ──────────────────┤"
     },
     {
       "type": "cpu",
-      "key": "cpu"
+      "key": "▪ "
     },
     {
       "type": "gpu",
-      "key": "gpu"
+      "key": "▫ "
+    },
+    {
+      "type": "display",
+      "key": "□ "
     },
     {
       "type": "memory",
-      "key": "mem"
+      "key": "◌ "
     },
     {
       "type": "disk",
-      "key": "disk"
+      "key": "◍ "
     },
-    "break",
-    "colors"
+    {
+      "type": "custom",
+      "format": "└───────────────────────────────────────────────────────────┘"
+    },
+    {
+      "type": "custom",
+      "format": "   ᗧ ᗧ ᗧ ᗧ ᗧ ᗧ ᗧ ᗧ ᗧ      ᗧ ᗧ ᗧ ᗧ ᗧ ᗧ ᗧ ᗧ ᗧ"
+    }
   ]
 }

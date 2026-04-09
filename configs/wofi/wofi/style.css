@@ -5,9 +5,9 @@
 
 window {
   margin: 0px;
-  border: 2px solid #88c0d0;
+  border: 2px solid #b08cff;
   border-radius: 8px;
-  background-color: #1e222a;
+  background-color: #0f1221;
 }
 
 #input {
@@ -15,8 +15,8 @@ window {
   padding: 8px 10px;
   border: none;
   border-radius: 6px;
-  color: #e6e6e6;
-  background-color: #2a2f3a;
+  color: #dbe2ff;
+  background-color: #171a2d;
 }
 
 #inner-box {
@@ -38,7 +38,7 @@ window {
 
 #text {
   margin: 4px;
-  color: #e6e6e6;
+  color: #dbe2ff;
 }
 
 #entry {
@@ -47,5 +47,5 @@ window {
 }
 
 #entry:selected {
-  background-color: #3b4252;
+  background-color: #232845;
 }

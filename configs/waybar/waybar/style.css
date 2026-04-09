@@ -1,31 +1,31 @@
 * {
   border: none;
   border-radius: 10px;
-  font-family: JetBrainsMono Nerd Font, sans-serif;
+  font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free", "Noto Sans", "Noto Sans CJK SC", "Noto Color Emoji", sans-serif;
   font-size: 14px;
   min-height: 0;
 }
 
 window#waybar {
   background: transparent;
-  color: #e6e6e6;
+  color: #dbe2ff;
 }
 
 #workspaces button {
   padding: 0 10px;
   margin: 6px 4px;
-  color: #aeb7c7;
-  background: #1f2430;
+  color: #9aa3c8;
+  background: #171a2d;
 }
 
 #workspaces button.active {
-  color: #0b0f14;
-  background: #88c0d0;
+  color: #0f1221;
+  background: #b08cff;
 }
 
 #workspaces button:hover {
-  background: #2a3140;
-  color: #e6e6e6;
+  background: #232845;
+  color: #dbe2ff;
 }
 
 #clock,
@@ -38,36 +38,36 @@ window#waybar {
 #tray {
   margin: 6px 4px;
   padding: 0 12px;
-  background: #1f2430;
-  color: #dce3ef;
+  background: #171a2d;
+  color: #dbe2ff;
 }
 
 #clock {
-  background: #88c0d0;
-  color: #0b0f14;
+  background: #b08cff;
+  color: #0f1221;
   font-weight: 700;
 }
 
 #backlight {
-  color: #ebcb8b;
+  color: #f5b97f;
 }
 
 #pulseaudio {
-  color: #b48ead;
+  color: #7fd3ff;
 }
 
 #network {
-  color: #81a1c1;
+  color: #8bd5ff;
 }
 
 #battery.charging {
-  color: #a3be8c;
+  color: #a6e3a1;
 }
 
 #battery.warning:not(.charging) {
-  color: #ebcb8b;
+  color: #f9e2af;
 }
 
 #battery.critical:not(.charging) {
-  color: #bf616a;
+  color: #f38ba8;
 }

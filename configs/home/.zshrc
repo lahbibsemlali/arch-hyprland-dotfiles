@@ -6,6 +6,7 @@ export EDITOR="nvim"
 setopt autocd
 setopt hist_ignore_dups
 setopt share_history
+bindkey -e
 
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE=5000
