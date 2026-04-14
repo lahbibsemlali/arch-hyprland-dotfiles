@@ -2,3 +2,4 @@ hyprpaper
 waybar-hyprland-git
 google-chrome
 wlogout
+wl-clipboard-history-git
