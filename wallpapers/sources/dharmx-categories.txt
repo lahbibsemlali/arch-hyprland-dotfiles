@@ -1,7 +1,0 @@
-# One category per line from https://github.com/dharmx/walls
-minimal
-nord
-geometry
-calm
-nature
-mountain

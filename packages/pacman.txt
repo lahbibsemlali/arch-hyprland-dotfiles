@@ -9,6 +9,8 @@ swaybg
 grim
 slurp
 wl-clipboard
+cliphist
+imv
 brightnessctl
 playerctl
 pavucontrol

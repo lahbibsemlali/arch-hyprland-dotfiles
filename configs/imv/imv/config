@@ -1,0 +1,9 @@
+[options]
+# Start with a black background
+background = 1e1e2e
+
+# Don't scale up small images, but scale down large ones
+scaling_mode = shrink
+
+# Hide the overlay (image name, resolution, etc) by default
+overlay = false
