@@ -11,6 +11,8 @@ slurp
 wl-clipboard
 cliphist
 imv
+rofimoji
+wtype
 brightnessctl
 playerctl
 pavucontrol
